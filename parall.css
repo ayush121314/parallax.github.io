@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    overflow-x: hidden; 
+    height: 100vh;
+    overflow-y: auto;
+    perspective: 10px;
+    /* store the 3d animations */
+}
+/* flexbox create krne ke liye parent chaiye hoga */
+.container{
+    position: relative;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    /* p the 3d effect of child */
+    transform-style: preserve-3d;
+}
+/* position aboslute kr diya taki overlap ho jaye */
+/*  z index -1 krne se aage peeche ho gye */
+/* z direction tranform se speed kam tez ho gye */
+.backg,.foreg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/* change speed */
+.backg{
+    transform:translateZ(-30px) scale(4);
+} 
+.foreg{
+    transform:translateZ(-10px) scale(3) ;
+} 
+.adv
+{
+    margin-top: 170px;
+    color: white;
+    font-weight: bolder;
+    font-size: 100px;
+    flex-flow: wrap;
+}
+.advt{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 30px;
+    position: relative;
+    /* margin-top: 350px; */
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.yes{
+    font-size: 70px;
+}
+.s1{
+    background-image: url(sport-1.jpg);
+}
+.s2{
+    background-image: url(sport-2.jpg);
+}
+.s3{
+    background-image: url(sport-3.jpg);
+}
+.sc{
+ background-attachment: fixed;
+ background-position: relative;
+ background-size: cover;
+ width: 100%;
+ /* height: 100%; */
+ background-position: center;
+}
+.sc{
+    position: relative;
+    padding-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.st{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 30px;
+    padding: 40px;
+    height: fit-content;
+    /* position: absolute; */
+    margin-top: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.sh{
+    position: absolute;
+    margin-top: 100px;
+    color: black;
+    background-color: white;
+    width: max-content;
+    font-size: 70px;
+    margin-left: 40%;
+    margin-right: 60%;
+    justify-content: center;
+}
+ 
