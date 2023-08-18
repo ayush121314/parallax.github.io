@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 .wrapper{
     overflow-x: hidden; 
@@ -10,13 +10,11 @@
     overflow-y: auto;
     perspective: 10px;
 }
-
 .container{
     position: relative;
     height:100%;
     display: flex;
     justify-content: center;
-    /* p the 3d effect of child */
     transform-style: preserve-3d;
 }
 .backg,.foreg{
@@ -25,7 +23,6 @@
     height: 100%;
     z-index: -1;
 }
-/* change speed */
 .backg{
     transform:translateZ(-30px) scale(4);
 } 
@@ -47,7 +44,6 @@
     color: white;
     font-weight: bolder;
     font-size: 100px;
-    
 }
 .advt{
     color: white;
@@ -72,17 +68,15 @@
 .sc{
  background-attachment: fixed;
  background-position: relative;
- background-size: cover;
  width: 100%;
  display: flex;
  background-position: center;
  justify-content: center;
+ position: relative;
+ padding-top: 40px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.sc{
-    position: relative;
-    padding-top: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 .st{
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
@@ -90,21 +84,17 @@
     padding: 40px;
     height: fit-content;
     margin-top: 500px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
 }
 .sh{
     position: absolute;
     margin-top: 100px;
     color: black;
     background-color: white;
-    width: max-content;
     font-size: 70px;
-    justify-content: center;
 }
  .foot1{
-         display: flex;
-       justify-content: center;
+        display: flex;
+        justify-content: center;
         padding: 10px;
         background-color: black;
         color: white;
