@@ -31,14 +31,23 @@
 .foreg{
     transform:translateZ(-10px) scale(3) ;
 } 
+.fir
+{
+    position: relative;
+}
 .advh{
-    position: relative;  
     padding-left: 40px;
     color: white;
     background-color: rgba(0, 0, 0, 0.70);
     font-weight: bolder;
     font-size: 70px;
-    margin-top: 40px;
+}
+.advt{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 30px;
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .adv
 {
@@ -48,14 +57,7 @@
     margin-top: 150px;
     word-break: break-all;
 }
-.advt{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    font-size: 30px;
-    position: relative;
-    padding: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 .yes{
     font-size: 70px;
 }
