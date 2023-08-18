@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
 }
 .wrapper{
     overflow-x: hidden; 
     height: 100vh;
     overflow-y: auto;
     perspective: 10px;
+    word-wrap: break-word;
 }
 .container{
     position: relative;
@@ -40,11 +42,11 @@
 }
 .adv
 {
-    position: relative;  
     color: white;
     font-weight: bolder;
     font-size: 100px;
     margin-top: 150px;
+    word-break: break-all;
 }
 .advt{
     color: white;
