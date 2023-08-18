@@ -36,14 +36,15 @@
     background-color: rgba(0, 0, 0, 0.70);
     font-weight: bolder;
     font-size: 70px;
+    margin-top: 40px;
 }
 .adv
 {
     position: relative;  
-    margin-top: 170px;
     color: white;
     font-weight: bolder;
     font-size: 100px;
+    margin-top: 150px;
 }
 .advt{
     color: white;
@@ -73,7 +74,7 @@
  background-position: center;
  justify-content: center;
  position: relative;
- padding-top: 40px;
+ /* padding-top: 40px; */
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
