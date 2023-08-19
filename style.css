@@ -30,20 +30,14 @@
     transform:translateZ(-30px) scale(4);
 } 
 .foreg{
-    transform:translateZ(-10px) scale(3) ;
+    transform:translateZ(-10px) scale(3);
 } 
-.fir
-{
-    position: relative;
-}
 .advh{
-    padding-left: 40px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.70);
-    font-weight: bolder;
+    
     font-size: 70px;
+   line-height: 100px;
 }
-.advt{
+.fir{
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 30px;
@@ -73,7 +67,7 @@
 }
 .sc{
  background-attachment: fixed;
- background-position: relative;
+ background-position: absolute;
  width: 100%;
  display: flex;
  flex-direction: column;
@@ -97,14 +91,16 @@
     color: black;
     background-color: white;
     font-size: 70px;
+    position: absolute;
+    transform: translateY(-300px);
+    
 }
  .foot1{
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-        background-color: black;
-        color: white;
-        position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
  }
  .foott{
     background-color: black;
