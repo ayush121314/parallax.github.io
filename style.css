@@ -10,7 +10,7 @@
     height: 100vh;
     overflow-y: auto;
     perspective: 10px;
-    word-wrap: break-word;
+   
 }
 .container{
     position: relative;
