@@ -3,14 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
 }
 .wrapper{
     overflow-x: hidden; 
     height: 100vh;
     overflow-y: auto;
     perspective: 10px;
-   
 }
 .container{
     position: relative;
@@ -91,8 +89,7 @@
     color: black;
     background-color: white;
     font-size: 70px;
-    position: absolute;
-    transform: translateY(-300px);
+   
     
 }
  .foot1{
