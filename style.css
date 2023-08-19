@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     transform-style: preserve-3d;
+    z-index: -1;
 }
 .backg,.foreg{
     position: absolute;
