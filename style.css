@@ -50,7 +50,6 @@
     margin-top: 150px;
     word-break: break-all;
 }
-
 .yes{
     font-size: 70px;
 }
@@ -75,7 +74,6 @@
  position: relative;
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .st{
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
@@ -89,8 +87,7 @@
     color: black;
     background-color: white;
     font-size: 70px;
-   position: relative;
-    
+    /* position: relative; */
 }
  .foot1{
     display: flex;
